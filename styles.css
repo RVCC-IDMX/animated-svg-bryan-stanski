@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: pink;
+}
+
+svg {
+  margin-top: -6px;
+  border-radius: 14% 28% 0 0;
+  overflow: hidden;
+}
+
+svg:hover #Unlock {
+  animation: unlock 1.5s ease;
+  transform: translateY(-100%);
+}
+
+@keyframes unlock {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+  }
+}
